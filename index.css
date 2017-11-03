@@ -62,7 +62,7 @@ h2 {
 }
 
 .about_me {
-    margin-top: 240px;
+    margin-top: 180px;
     text-align: center;
 }
 .about_me_container {
@@ -92,6 +92,8 @@ table, th, td {
     text-align: center;
 }
 
+
+
 .about_me, .projects, .contact {
     text-align: center;
 }
@@ -110,4 +112,18 @@ table, th, td {
 
 p, th, td, h3, h4 {
     font-family: 'Roboto', sans-serif;
+}
+
+h2:after {
+    content: '';
+    border-top: 2px solid #628DA1;
+    width: 100px;
+    margin: auto;
+    display: flex;
+}
+
+.contact {
+    background-image: url(img/sanbruno.png);
+    background-size: cover;
+    color: white;
 }
