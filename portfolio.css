@@ -5,6 +5,7 @@ h2 {
     font-size: 45px;
 }
 .name {
+
     position: relative;
     text-align: center;
     color: white;
@@ -19,7 +20,7 @@ h2 {
 
 .background {
     width: 100%;
-    height: 100%;
+    height: 550px;
     object-fit: cover;
     left: 0;
     right: 0;
@@ -61,7 +62,7 @@ h2 {
 }
 
 .about_me {
-    margin-top: 33%;
+    margin-top: 240px;
     text-align: center;
 }
 .about_me_container {
@@ -98,4 +99,11 @@ table, th, td {
 
 .python:hover, .mean:hover, .java:hover, .html:hover {
     opacity: 0.5;
+}
+
+.resume {
+    background-color: #3cb371;
+    border-radius: 4px;
+    font-size: 15px;
+    color: white;
 }
