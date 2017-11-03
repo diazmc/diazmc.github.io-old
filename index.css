@@ -107,3 +107,7 @@ table, th, td {
     font-size: 15px;
     color: white;
 }
+
+p, th, td, h3, h4 {
+    font-family: 'Roboto', sans-serif;
+}
