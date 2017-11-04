@@ -111,9 +111,11 @@ table, th, td {
 
 .resume {
     background-color: #3cb371;
-    border-radius: 4px;
+    border-radius: 10px;
     font-size: 15px;
     color: white;
+    font-size: 20px;
+    padding: 8px;
 }
 
 p, th, td, h3, h4 {
