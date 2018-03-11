@@ -183,6 +183,10 @@ a:focus,a:hover {
     -o-background-size:cover;
     background-size:cover;
 }
+#about img {
+    width: 170px;
+    height: auto;
+}
 
 table {
     margin: auto;
