@@ -31,6 +31,16 @@ h2:after {
     -moz-animation: blinker 1.2s linear infinite;
     animation: blinker 1.2s linear infinite;
 }
+@-webkit-keyframes blinker {
+    50% {
+        opacity: 0
+    }    
+}
+@-moz-keyframes blinker {
+    50% {
+        opacity: 0
+    }    
+}
 @keyframes blinker {
     50% {
         opacity: 0
