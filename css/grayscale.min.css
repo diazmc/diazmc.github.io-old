@@ -295,3 +295,18 @@ img::selection {
 img::-moz-selection {
     background:0 0
 }
+
+h3 {
+    color: #42dca3;
+}
+
+#weatherapi {
+    border: 2px solid white;
+}
+.project {
+    margin-bottom: 20px;
+}
+
+.project a:hover {
+    text-decoration: underline;
+}
