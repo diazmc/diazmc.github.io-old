@@ -165,6 +165,10 @@ a:focus,a:hover {
         font-size:22px
     }
 } 
+
+
+
+
 .btn-circle {
     font-size:26px;
     width:55px;
@@ -210,10 +214,6 @@ th, td {
     padding: 20px 0px;
 }
 
-th a:hover {
-    opacity: 0.5;
-    filter:contrast(200%) brightness(100%);
-}
 .contact-section {
     background:url(../img/sanbruno.jpg) no-repeat center center scroll;
     background-color:#000;
@@ -309,4 +309,17 @@ h3 {
 
 .project a:hover {
     text-decoration: underline;
+}
+
+
+th img{
+    float: left;
+    margin: 15px;
+    -webkit-transition: margin 0.1s ease-out;
+    -moz-transition: margin 0.1s ease-out;
+    -o-transition: margin 0.1s ease-out;
+}
+ 
+th img:hover {
+    margin-top: 4px;
 }
