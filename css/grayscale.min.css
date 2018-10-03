@@ -324,6 +324,9 @@ th img:hover {
     margin-top: 4px;
 }
 
+.project img {
+    transition: 0.3s ease;
+}
 .project img:hover {
     width: 370px;
     cursor: pointer;
