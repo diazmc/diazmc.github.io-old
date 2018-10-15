@@ -326,6 +326,7 @@ th img:hover {
 
 .project img {
     transition: 0.3s ease;
+    
 }
 .project img:hover {
     width: 370px;
