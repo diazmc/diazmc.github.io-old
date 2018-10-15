@@ -323,15 +323,18 @@ th img{
 th img:hover {
     margin-top: 4px;
 }
+.project {
+    overflow: hidden;
+}
 
 .project img {
     transition: 0.3s ease;
-    
+    transform: scale(1.15)
 }
 .project img:hover {
-    width: 370px;
     cursor: pointer;
     opacity: 0.5;
+    transform: scale(1.03)
 }
 .modal-dialog {
     max-width: 800px;
