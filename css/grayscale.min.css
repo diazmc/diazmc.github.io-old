@@ -169,6 +169,17 @@ a:focus,a:hover {
 
 } 
 
+/* Small phones: from 0 to 480px */
+@media only screen and (max-width: 480px) {
+    .table img  {
+        height: 20%;
+        width: auto;
+    }
+    .content-section p {
+        padding: 0 5%;
+    }
+
+}
 
 
 
@@ -191,6 +202,10 @@ a:focus,a:hover {
     background:rgba(255,255,255,.1)
 }
 .content-section {
+    padding-top:150px;
+    padding-bottom:150px
+}
+.project-section {
     padding-top:150px;
     padding-bottom:150px
 }
