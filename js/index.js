@@ -42,19 +42,17 @@ $(document).ready(function () {
   var app = document.getElementById('name-heading');
 
   var typewriter = new Typewriter(app, {
-    loop: true
-  });
+    loop: false
+  })
 
-  typewriter.typeString('Hello!')
+
+  typewriter.typeString('Hello,')
+    .pauseFor(1000)
+    .typeString(" <br>I'm McArthur Diaz")
     .pauseFor(1000)
     .deleteAll()
-    .typeString('My name is')
-    .pauseFor(1000)
-    .deleteAll()
-    // .deleteChars(7)
-    // .typeString('<strong>altered!</strong>')
     .typeString('McArthur Diaz')
     .pauseFor(1000)
-    .start();
+    .start()
     
 });
