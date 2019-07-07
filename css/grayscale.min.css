@@ -404,3 +404,12 @@ font-weight: normal;
 color:#fff;
 opacity:1;
 }
+
+
+.btn-heading.animated.slideInLeft {
+  animation-duration: 2s;
+}
+
+.banner-social-buttons.animated.slideInLeft {
+  animation-duration: 2s;
+}
