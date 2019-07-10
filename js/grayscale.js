@@ -44,12 +44,12 @@
 // Google Maps Scripts
 var map = null;
 // When the window has finished loading create our google map below
-google.maps.event.addDomListener(window, 'load', init);
+google.maps.event.addDomListener(window, 'load', initMap);
 google.maps.event.addDomListener(window, 'resize', function() {
   map.setCenter(new google.maps.LatLng(37.6305, -122.4111));
 });
 
-function init() {
+function initMap() {
   // Basic options for a simple Google Map
   // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
   var mapOptions = {

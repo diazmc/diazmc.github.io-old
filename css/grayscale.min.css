@@ -288,7 +288,7 @@ th, td {
   border:1px solid white;
   background-color:transparent
 }
-.btn-heading:focus,.btn-default:hover {
+.btn-heading:focus,.btn-heading:hover {
   color:#000;
   border:1px solid white;
   outline:0;
@@ -412,4 +412,24 @@ opacity:1;
 
 .banner-social-buttons.animated.slideInLeft {
   animation-duration: 2s;
+}
+
+.carousel-inner button{
+  cursor: pointer;
+  color: #42dca3;
+  background: none;
+  font-size: 150%;
+  border: 1px solid #42dca3;
+  font-family:Cabin,'Helvetica Neue',Helvetica,Arial,sans-serif;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding: 0px 10px;
+}
+
+.carousel-inner .carousel-item img {
+  filter: brightness(50%);
+}
+
+.carousel-inner .carousel-item .omnifood {
+  filter: brightness(100%);
 }
