@@ -46,11 +46,7 @@ $(document).ready(function () {
   })
 
 
-  typewriter.typeString('Hello,')
-    .pauseFor(1000)
-    .typeString(" <br>I'm McArthur Diaz")
-    .pauseFor(1000)
-    .deleteAll()
+  typewriter
     .typeString('McArthur Diaz')
     .pauseFor(1000)
     .start()
